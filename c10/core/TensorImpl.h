@@ -2767,7 +2767,7 @@ struct C10_API TensorImpl : public c10::intrusive_ptr_target {
 
  public:
   void set_storage_access_should_throw() {
-    storage_access_should_throw_ = true;
+    storage_access_should_throw_ = false;
   }
 
  public:
